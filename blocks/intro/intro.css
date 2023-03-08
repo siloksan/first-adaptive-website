@@ -1,0 +1,10 @@
+@import url(./__text/intro__text.css);
+
+.intro {
+    padding-top: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: calc(100% - 296px) ;
+    margin: 0 auto;
+}

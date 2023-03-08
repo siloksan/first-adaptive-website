@@ -1,3 +1,5 @@
-.intro__list {
+@import url(__item/list__item.css);
 
+.list {
+    padding: 0;
 }
