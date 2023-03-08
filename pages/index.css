@@ -10,9 +10,13 @@
 
 @import url(../blocks/section-title/_width/section-title_width_690px.css);
 
+@import url(../blocks/section-title/_width/section-title_width_560px.css);
+
 @import url(../blocks/section-title/_width/section-title_width_460px.css);
 
 @import url(../blocks/section-subtitle/section-subtitle.css);
+
+@import url(../blocks/section-subtitle/_width/section-subtitle_width_360px.css);
 
 @import url(../blocks/lead/lead.css);
 
@@ -25,4 +29,6 @@
 @import url(../blocks/place/place.css);
 
 @import url(../blocks/places/places.css);
+
+@import url(../blocks/cover/cover.css);
 
