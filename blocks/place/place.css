@@ -1,3 +1,21 @@
-.place {
+@import url(./__image/place__image.css);
 
+@import url(./__link/place__link.css);
+
+@import url(./__paragraph/place__paragraph.css);
+
+@import url(./__url-heading/place__url-heading.css);
+
+@import url(./__website/place__website.css);
+
+.place {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 8fr 9fr;
+    row-gap: 48px;
+    column-gap: 40px;
+}
+
+.place:first-child {
+    padding-top: 0;
 }
