@@ -1,0 +1,7 @@
+.transformation-link {
+    transition: opacity 1s linear;
+}
+
+.transformation-link:hover {
+    opacity: .8;
+}
