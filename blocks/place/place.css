@@ -19,3 +19,9 @@
 .place:first-child {
     padding-top: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        column-gap: 38px;
+    }
+}

@@ -5,3 +5,9 @@
     font-size: 72px;
     line-height: 76px;
 }
+
+@media screen and (max-width: 1024px) {
+    .section-title_width_460px {
+        max-width: 440px;
+    }
+}
