@@ -11,7 +11,7 @@
 .place {
     padding-top: 80px;
     display: grid;
-    grid-template-columns: 8fr 9fr;
+    grid-template-columns: 8fr minmax(min-content, 9fr);
     row-gap: 48px;
     column-gap: 40px;
 }
@@ -22,6 +22,21 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        column-gap: 38px;
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        padding-top: 73px;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
     }
 }

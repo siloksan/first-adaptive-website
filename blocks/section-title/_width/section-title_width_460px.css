@@ -11,3 +11,21 @@
         max-width: 440px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section-title_width_460px {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section-title_width_460px {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

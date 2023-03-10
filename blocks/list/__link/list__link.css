@@ -12,4 +12,9 @@
     .list__link:nth-child(even) {
         margin: 32px 0;
     }
+
+    .list__link {
+        font-size: 24px;
+        line-height: 24px;
+    }
 }

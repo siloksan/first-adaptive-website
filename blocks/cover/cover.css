@@ -10,17 +10,20 @@
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 100%;
+        height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         padding-top: 92px;
+        height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
         padding-top: 66px;
+        height: 320px;
     }
 }

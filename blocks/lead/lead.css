@@ -16,3 +16,15 @@
         max-width: calc(100% - 96px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        padding-top: 40px;
+    }
+}
