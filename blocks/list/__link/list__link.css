@@ -7,3 +7,9 @@
 .list__link:nth-child(even) {
     margin: 0 18px;
 }
+
+@media screen and (max-width: 320px) {
+    .list__link:nth-child(even) {
+        margin: 32px 0;
+    }
+}

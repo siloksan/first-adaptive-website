@@ -1,3 +1,10 @@
 .list_flex_rows {
     display: flex;
 }
+
+@media screen and (max-width: 320px) {
+    .list_flex_rows {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
