@@ -2,5 +2,6 @@
 
 .root {
     font-family: 'Inter','Helvetica Neue', 'Arial', sans-serif;
-    color: #FFFFFF
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
 }
