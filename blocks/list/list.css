@@ -1,7 +1,0 @@
-@import url(__item/list__item.css);
-@import url(__link/list__link.css);
-
-.list {
-    padding: 0;
-    margin: 0;
-}

@@ -1,5 +1,11 @@
 @import url(./__text/intro__text.css);
 
+@import url(./__title/intro__title.css);
+
+@import url(./__list/intro__list.css);
+
+@import url(./__list-numbers/intro__list-numbers.css);
+
 .intro {
     padding-top: 114px;
     display: flex;
@@ -9,20 +15,20 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .intro {
         max-width: calc(100% - 96px)
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro {
         padding-top: 110px;
         max-width: calc(100% - 48px)
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro {
         padding-top: 86px;
         max-width: calc(100% - 32px)

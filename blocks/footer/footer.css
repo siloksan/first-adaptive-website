@@ -1,5 +1,9 @@
 @import url(./__copyright/footer__copyright.css);
 
+@import url(./__link/footer__link.css);
+
+@import url(./__list-link/footer__list-link.css);
+
 .footer {
     max-width: calc(100% - 96px);
     margin: 0 auto;
@@ -8,14 +12,14 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .footer {
         max-width: calc(100% - 48px);
         padding: 88px 0 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer {
         flex-direction: column;
         padding: 64px 0 24px;

@@ -6,23 +6,7 @@
 
 @import url(../vendor/normalize.css);
 
-@import url(../blocks/section-title/section-title.css);
-
-@import url(../blocks/section-title/_width/section-title_width_690px.css);
-
-@import url(../blocks/section-title/_width/section-title_width_560px.css);
-
-@import url(../blocks/section-title/_width/section-title_width_460px.css);
-
-@import url(../blocks/section-subtitle/section-subtitle.css);
-
-@import url(../blocks/section-subtitle/_width/section-subtitle_width_360px.css);
-
 @import url(../blocks/lead/lead.css);
-
-@import url(../blocks/list/list.css);
-
-@import url(../blocks/list/_flex/list_flex_rows.css);
 
 @import url(../blocks/intro/intro.css);
 
