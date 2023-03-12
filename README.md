@@ -1,8 +1,8 @@
 
 # The project work is "first-adaptive-website"
-
+## Description:
+This is a fully responsive website for any screen resolution.
 ## Website with adaptive layout
-
 The project was created on the basis of [Яндекс.Практикум](https://practicum.yandex.ru/)
 
 ## The project is made for the main 4 screen resolutions:
